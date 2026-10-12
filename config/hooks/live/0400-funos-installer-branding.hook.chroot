@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+b=/etc/calamares/branding/debian
+if [ -f $b/branding.desc ]; then
+sed -i 's|^\( *\)productName:.*|\1productName: "Fun OS"|; s|^\( *\)shortProductName:.*|\1shortProductName: "Fun OS"|; s|^\( *\)versionedName:.*|\1versionedName: "Fun OS 1.0"|; s|^\( *\)shortVersionedName:.*|\1shortVersionedName: "Fun OS 1.0"|; s|^\( *\)bootloaderEntryName:.*|\1bootloaderEntryName: "Fun OS"|' $b/branding.desc
+fi
+if [ -f /usr/share/plymouth/themes/funos/logo.png ]; then
+cp /usr/share/plymouth/themes/funos/logo.png $b/debian-logo.png
+cp /usr/share/plymouth/themes/funos/logo.png /usr/share/pixmaps/install-debian.png
+fi
+if [ -f /usr/share/applications/calamares-install-debian.desktop ]; then
+sed -i 's/Debian/Fun OS/g' /usr/share/applications/calamares-install-debian.desktop
+fi

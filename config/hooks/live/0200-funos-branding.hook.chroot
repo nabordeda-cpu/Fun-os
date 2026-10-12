@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+cat > /usr/lib/os-release << 'OSR'
+PRETTY_NAME="Fun OS 1.0"
+NAME="Fun OS"
+VERSION_ID="1.0"
+VERSION="1.0"
+VERSION_CODENAME=trixie
+ID=debian
+OSR
+printf 'Fun OS 1.0 \\n \\l\n\n' > /etc/issue
+printf 'Fun OS 1.0\n' > /etc/issue.net
+: > /etc/motd

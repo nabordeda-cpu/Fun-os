@@ -1,0 +1,16 @@
+network-manager-gnome
+blueman
+pipewire-audio
+pavucontrol
+xfce4-pulseaudio-plugin
+xfce4-power-manager
+xfce4-power-manager-plugins
+xfce4-notifyd
+xfce4-screensaver
+brightnessctl
+firmware-atheros
+firmware-realtek
+firmware-iwlwifi
+firmware-brcm80211
+picom
+xfce4-docklike-plugin

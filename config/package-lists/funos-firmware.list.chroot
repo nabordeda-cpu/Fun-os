@@ -1,0 +1,6 @@
+firmware-amd-graphics
+firmware-linux-free
+xserver-xorg-video-radeon
+xserver-xorg-video-fbdev
+libgl1-mesa-dri
+mesa-utils

@@ -1,0 +1,11 @@
+[Unit]
+Description=Set Fun OS user full name
+After=live-config.service
+Before=display-manager.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh -c 'id funos >/dev/null 2>&1 && usermod -c "Fun OS user" funos || true'
+
+[Install]
+WantedBy=multi-user.target

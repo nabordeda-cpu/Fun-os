@@ -1,0 +1,17 @@
+favorites=firefox-esr.desktop,thunar.desktop,xfce4-terminal.desktop,org.xfce.mousepad.desktop,ristretto.desktop,xfce4-settings-manager.desktop
+recent=
+button-title=Fun OS
+button-icon=/usr/share/pixmaps/funos-logo.svg
+show-button-title=false
+show-button-icon=true
+display-recent=false
+launcher-show-name=true
+launcher-show-description=false
+category-icon-size=1
+item-icon-size=2
+hover-switch-category=true
+position-search-alternate=false
+position-commands-alternate=true
+menu-width=520
+menu-height=560
+menu-opacity=96

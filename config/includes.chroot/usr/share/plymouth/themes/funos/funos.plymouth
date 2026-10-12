@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Fun OS
+Description=Fun OS boot splash
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/funos
+ScriptFile=/usr/share/plymouth/themes/funos/funos.script
